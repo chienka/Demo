@@ -3,7 +3,7 @@
 public class LsCommand {
     public static void main(String[] args) {
         LsFile f = new LsFile(args);
-        if (args[0].equals("ls")) {
+        if (args[0].equals("ls")) { 
             if (args.length == 1) {
                 f.getName();
             } else {
